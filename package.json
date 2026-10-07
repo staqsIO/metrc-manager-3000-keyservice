@@ -1,0 +1,35 @@
+{
+  "name": "metrc-formul8-os-keyservice",
+  "version": "2.0.0",
+  "description": "Serves a centrally rotated OpenRouter API key to Metrc-Formul8-OS services",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.22.3",
+    "pg": "^8.13.0"
+  },
+  "license": "MIT",
+  "author": "Staqs, Inc. (https://staqs.io)",
+  "contributors": [
+    {
+      "name": "Staqs, Inc.",
+      "url": "https://staqs.io"
+    },
+    {
+      "name": "Formul8",
+      "url": "https://formul8.ai"
+    },
+    {
+      "name": "UMB Advisors",
+      "url": "https://umbadvisors.com"
+    }
+  ]
+}
