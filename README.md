@@ -1,4 +1,4 @@
-# metrc-formul8-os-keyservice
+# metrc-manager-3000-keyservice
 
 A small service that holds one shared OpenRouter API key, encrypted at rest in Postgres, and serves it to your platform instances. Rotate the key in one place; consumers cache it for 5 minutes.
 
@@ -65,7 +65,7 @@ Store tests need a reachable Postgres via `TEST_POSTGRES_URL`.
 
 ## Contributors
 
-Created by [Staqs](https://github.com/staqsIO), [Formul8](https://github.com/F8ai) and [UMB Advisors](https://github.com/UMB-Advisors). See the [root repository](https://github.com/staqsIO/metrc-formul8-os#contributors) for details.
+Created by [Staqs](https://github.com/staqsIO), [Waev Tech](https://github.com/waevtech) and [UMB Advisors](https://github.com/UMB-Advisors). See the [root repository](https://github.com/staqsIO/metrc-manager-3000#contributors) for details.
 
 ## License
 
